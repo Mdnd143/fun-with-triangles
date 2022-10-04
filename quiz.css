@@ -1,0 +1,88 @@
+input{
+    padding: 5px;
+    font-size: large;
+}
+.nav-link,#head {
+    text-decoration: none;
+    color: white;
+}
+.nav-active-link {
+    font-size: 130%;
+    text-decoration: none;
+    color: rgb(240, 234, 156);
+}
+.container {
+    background-color: rgb(136, 127, 6);
+    display: flex;
+    padding: 0 2rem;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.quiz-container{
+    width: 80%;
+    margin: 1rem auto;
+}
+.main-head{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 100%;
+}
+.sub-head {
+    font-size: 170%;
+    text-align: center;
+}
+.quiz-form{
+    text-align: center;
+}
+
+.question-container{
+    font-size: larger;
+}
+.question-text{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.btn{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#submit-answer-btn{
+    background-color: rgb(136, 127, 6);
+    font-size: 150%;
+    color: white;
+    padding: 0.8rem 0.8rem;
+}
+#output {
+    text-align: center;
+    font-size: 150%;
+}
+.footer-1{
+    text-decoration: none;
+    color: rgb(136, 127, 6);
+}
+.footer2 {
+    text-align: center;
+    
+    padding-bottom: 1rem;
+}
+#foot2 {
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer1 {
+    padding-left: 4rem;
+    padding-top: 2rem;
+    color: white;
+}
+.footer-title{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
