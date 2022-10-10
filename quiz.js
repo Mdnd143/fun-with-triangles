@@ -3,7 +3,8 @@ const submitAnswerButton=document.querySelector('#submit-answer-btn');
 const outputScore=document.querySelector('#output');
 const correctAnswer=["90","Right","Equilateral triangle","36","Isoceles triangle"];
 
-function calculateScore(){
+function calculateScore(e){
+    e.preventDefault();
 let score=0;
 let index=0;
 const formResults = new FormData(quizForm);
@@ -16,4 +17,4 @@ for(let value of formResults.values()){
 outputScore.innerText="The score is "+score;
 }
 
-submitAnswerButton.addEventListener('click',calculateScore);
+quizForm.addEventListener('submit',(e)=>calculateScore(e));

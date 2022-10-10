@@ -12,8 +12,8 @@ function calculateHypotenuse(){
     b=Number(sides[1].value)
     if(a>0 && b>0){
         const sumofsquare= calculateSumOfSquares(Number(sides[0].value),Number(sides[1].value));
-        const lengthOfHypotenuse=Math.sqrt(sumofsquare);
-        outputhypotenuse.innerText="The length of Hypotenuse is "+lengthOfHypotenuse;
+        const lengthOfHypotenuse=Math.round(Math.sqrt(sumofsquare));
+        outputhypotenuse.innerText="The length of Hypotenuse is "+lengthOfHypotenuse + " (round off value)";
     }
     else{
         outputhypotenuse.innerText="Input cannot be negative and empty ";

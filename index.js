@@ -13,7 +13,7 @@ function areaOfTriangle(){
   if(a>0 && b>0){
     const product=sideProduct(Number(sides[0].value),Number(sides[1].value));
     const Area=1/2*product;
-    outputArea.innerText="The area of Triangle is "+Area;
+    outputArea.innerText="The area of Triangle is "+Math.round(Area) + " (round off value)";
   }
   else{
     outputArea.innerText="Sides should be greater than 0.Input cannot be Negative and Empty.";
